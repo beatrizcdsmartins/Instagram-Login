@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="container-imagens">
+        <a href="https://ibb.co/zZPhRq8"><img src="https://i.ibb.co/rH5G6Db/celular.png" alt="celular" border="0" class="cel"></a>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/QCkSWkS/insta2.png" alt="insta2" border="0" class="imagem"></a>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/vqJcTvW/insta1.png" alt="insta1" border="0" class="imagem" id="troca"></a>
+    </div>
+
+    <div class="container-itens">
+        <div class="container-form">
+
+            <img href="https://imgbb.com/"><img src="https://i.ibb.co/Hh0MBsg/insta-logo.png" alt="insta-logo" border="0" class="instalogo"></img>
+            <input type="" placeholder="Telefone, nome do usuário ou email">
+            <input type="" placeholder="Senha">
+
+            <button>Entrar</button>
+
+            <a target="_blank" href="https://pt-br.facebook.com/" class="entrarface">Entrar com o Facebook </a>
+
+            <a href="" class="esqueceusenha">Esqueceu a senha?</a>
+
+            <div class="container-cadastro">
+                <p class="conta">Não tem conta? </p>  <a href="" class="cadas">Cadastre-se</a>
+            </div>
+
+            <p class="obtenha">Obtenha o aplicativo</p>
+
+             <div class="container-app">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/pw0H1PF/ios.png" alt="ios" border="0" class="logo-app"></a>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/JQSxRLZ/google.png" alt="google" border="0"  class="logo-app"></a>
+            
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* pro javascript o HTML se chama Document*/
+        let imagem = document.getElementById("troca")
+    
+       
+        function trocatroca(){
+            if ( imagem.style.opacity == 0) {
+                imagem.style.opacity = 1
+            }
+            else {
+                imagem.style.opacity = 0
+            }
+           
+            
+        }
+
+        setInterval(() => {
+            trocatroca()
+
+        }, 2000);
+
+    </script>
+</body>
+</html>
+
