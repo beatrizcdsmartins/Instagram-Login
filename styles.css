@@ -132,3 +132,23 @@ button{
 }
 
 
+@media screen and (min-width:380px)and (max-width:840px) {
+    .container-imagens{
+        display: none ;
+    }
+}
+
+@media screen and (max-width:379px) {
+    .container-imagens{
+        display: none ;
+    }
+
+    .container-itens{
+        width: 70vw;
+    }
+
+    .container-app img{
+        width: 40%;
+        
+    }
+}
